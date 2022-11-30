@@ -5,22 +5,46 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://kit.fontawesome.com/e915e405f3.js" crossorigin="anonymous"></script>
   <script src="https://cdn.tailwindcss.com"></script>
-  <title>tail wind</title>
+  <title>Vs code</title>
 </head>
 
-<body class="bg-gray-400">
-  <div>
-    <h1>Hello world</h1>
-
-    <button class="p-3 px-8 drop-shadow-lg bg-red-400 rounded-md font-bold 
-    shadow-[2px_2px_2px_red, -2px_-2px_2px_green]
-    hover:scale-[1.3] transition-all text-center ml-5 mt-10">click here</button>
+<body class="bg-neutral-800">
+  <nav class="flex justify-between items-center mx-5 my-3">
+    <div class="flex justify-between gap-2">
+      <img src="./img/logo.png" alt="logo" class="w-[30px] h-[30px]">
+      <h1 class="text-white text-2xl">Visual Studio Code</h1>
+    </div>
+    <ul class="flex text-slate-400 gap-5 justify-self-start">
+      <li class="text-lg">Docs</li>
+      <li class="text-lg">Updates</li>
+      <li class="text-lg">Blog</li>
+      <li class="text-lg">API</li>
+      <li class="text-lg">Extensions</li>
+      <li class="text-lg">FAQ</li>
+      <li class="text-lg">Learn</li>
+    </ul>
+    <div class="flex justify-between items-center gap-3">
+      <i class="fa-solid fa-magnifying-glass text-white"></i>
+      <button class="text-white bg-blue-500 px-5 py-4 font-bold">Download</button>
+    </div>
+  </nav>
+  <div class="text-center bg-neutral-900 py-3 text-lg">
+    <p class="text-white"><span class="text-blue-600">Version 1.73 </span>is now available! Read about the new feature and fixes form October</p>
   </div>
-
-  <div>
-    <button class="bg-blue-500 text-white rounded-md px-5 py-2 m-2 hover:text-blue-500 hover:bg-white">click me</button>
-  </div>
+  <main class="flex justify-center items-center text-center">
+    <div class="items-center text-center flex flex-col">
+      <h1 class="text-white text-[55px] leading-none">Code editing. <br><span class="font-bold">Redefined.</span></h1>
+      <p class="text-slate-400 text-lg mt-3 w-[50%]">Free. Built on open source. Runs everywhere.</p>
+      <button class="mt-5 bg-blue-500 font-bold text-white w-[50%] py-2 px-4 text-center text-md mb-3">Download for windows <span class="font-thin text-sm">Stable Build</span></button>
+      <p class="text-blue-600 bg-neutral-900 w-[60%] rounded-lg py-2 text-xs">web, Insiders edition, <span class="text-slate-400">or</span> other platforms</p>
+      <p class="text-slate-400 w-[60%] mt-4">By using VS Code,you agree to its <span class="text-blue-600">license and privacy statement.</span></p>
+    </div>
+    <div class="w-[60%] mt-[50px]">
+      <img src="./img/vscode.PNG" alt="vscode">
+    </div>
+  </main>
 </body>
 
 </html>
