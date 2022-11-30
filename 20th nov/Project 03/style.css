@@ -1,0 +1,181 @@
+/* You can not modify anything from the HTML file */
+/* You can only modify the CSS file */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Merriweather&family=Montserrat:wght@100;400;900&family=Orbitron:wght@400;800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Orbitron", sans-serif;
+}
+
+.container {
+  margin: 2% 6%;
+}
+.navbar-container {
+  display: flex;
+  height: 15vh;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar-container > div:first-child img {
+  width: 6rem;
+}
+.list {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  gap: 2.4rem;
+  align-items: center;
+  font-size: 1rem;
+}
+
+.list li:first-child {
+  font-weight: 800;
+  display: inline-block;
+  position: relative;
+}
+
+.list li:first-child::after {
+  content: "";
+  height: 2px;
+  width: 70%;
+  background-color: black;
+  position: absolute;
+  bottom: -0.2em;
+  left: 50%;
+  transform: translate(-50%);
+}
+.list-item:nth-child(2) {
+  order: 1;
+}
+.list-item:nth-child(4) {
+  order: 1;
+}
+.list-item:nth-child(5) {
+  order: 1;
+}
+
+.button-group {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-button {
+  background-color: white;
+  border: 2px solid;
+  text-align: center;
+  padding: 8px 20px;
+  border-radius: 12px;
+}
+
+.search-icon svg {
+  height: 25px;
+}
+
+.hero-container {
+  position: relative;
+  margin-top: 50px;
+}
+
+.hero-container > span {
+  position: absolute;
+}
+
+.globe + div {
+  z-index: 1;
+}
+.globe + div img {
+  width: 30%;
+}
+
+.square {
+  position: absolute;
+  top: 130px;
+  left: 70px;
+  z-index: -1;
+}
+
+.square img {
+  width: 70%;
+}
+
+.hero-container-right {
+  position: absolute;
+  width: 60%;
+  top: 25%;
+  right: 0px;
+  text-align: center;
+}
+
+.hero-container-right h1 {
+  font-size: 2.5rem;
+}
+
+.hero-container-right p {
+  text-align: center;
+  margin-top: 2.6rem;
+  font-size: 0.7rem;
+  color: #808080;
+}
+
+.hero-container-right > p + div {
+  margin-top: 3.1rem;
+  margin-bottom: 4rem;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.button-email {
+  background-color: transparent;
+  font-size: 1rem;
+  padding: 5px 20px;
+  border-radius: 10px;
+}
+
+.button-join {
+  background-color: #000;
+  color: #ffff;
+  font-size: 1rem;
+  padding: 5px 10px;
+  border-radius: 10px;
+}
+
+.icons {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.icons span img {
+  width: 70%;
+}
+
+.globe {
+  top: 0;
+  left: 50%;
+}
+
+.globe img {
+  width: 3rem;
+}
+
+.hero-container > span:nth-child(2) {
+  top: 10%;
+  right: 0;
+}
+.hero-container > span:nth-child(2) img {
+  width: 3rem;
+}
+.hero-container > span:nth-child(3) img {
+  width: 2.2rem;
+}
+
+.hero-container > span:nth-child(3) {
+  bottom: -25px;
+  left: 44%;
+}

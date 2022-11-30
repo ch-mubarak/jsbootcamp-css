@@ -1,0 +1,103 @@
+/* You can not modify anything in the HTML */
+/* You can only modify the CSS file */
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body{
+  font-family: sans-serif;
+  color: #fff;
+}
+
+section:last-child{
+  /* padding-left: 100px; */
+}
+
+.navbar {
+  background-color: black;
+  color: #fff;
+  display: flex;
+  flex-direction: row;
+  gap: 4rem;
+  align-items: center;
+  padding: 20px 50px;
+  font-size: 1rem;
+}
+
+.button-small {
+  padding: 8px 20px;
+  border-radius: 8px;
+  border: none;
+  color: #fff;
+  background-color: rgb(173, 51, 147);
+}
+.navbar div:last-child {
+  align-self: flex-end;
+  margin-left: auto;
+}
+.logo {
+  height: 2rem;
+}
+
+.line {
+  min-height: 2rem;
+  border-left: 1px solid white;
+}
+
+.list {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  gap: 4rem;
+  align-items: center;
+}
+
+.hero {
+  background-image: url("./assets/bg.png");
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.button-large {
+  padding: 8px 20px;
+  border-radius: 8px;
+  color: #fff;
+  text-transform:lowercase;
+  border: none;
+  font-size: 1.8rem;
+  margin-top: 3rem;
+  background-color: rgb(173, 51, 147);
+}
+
+.button-large::first-letter{
+  text-transform: capitalize;
+}
+
+.hero-heading{
+  word-wrap: break-word;
+  width: 60%;
+  font-size: 4.5rem;
+  text-align: center;
+}
+
+.hero-description{
+  font-size: 1.6rem;
+}
+
+.list li:first-child::after{
+  content: "";
+  display: inline-block;
+  width: 0;
+  height: 0;
+  margin-left: 5px;
+  border-top: 6px solid rgb(255, 255, 255);
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+}

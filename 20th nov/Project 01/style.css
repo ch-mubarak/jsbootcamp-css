@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Merriweather&family=Montserrat:wght@100;400;900&display=swap");
+
+* {
+  margin: 0;
+  /* box-sizing: border-box; */
+  /* padding: 0; */
+}
+body {
+  font-family: sans-serif;
+  font-size: 1.3rem;
+  /* width: 100vw; */
+  height: 100vh;
+}
+
+.container {
+  padding: 50px 0 50px 100px  
+}
+
+.navbar-container {
+  display: flex;
+  margin-right: 70px;
+}
+
+.grow-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.list {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  text-align: center;
+  gap: 1rem;
+}
+
+.list-item {
+  list-style: none;
+  margin-right: 20px;
+  color: #807d7d;
+  cursor: pointer;
+}
+.list-item:hover {
+  color: black;
+}
+.button-group {
+  margin-left: auto;
+}
+.heading-text {
+  font-size: 85px;
+  margin-bottom: 20px;
+}
+
+.description {
+  margin-bottom: 50px;
+  font-size: 1.1rem;
+  color: #807d7d;
+
+}
+
+.nav-button {
+  padding: 15px 25px;
+  border-radius: 7px;
+  border: none;
+  color: #fff;
+  background-color: #5d419b;
+}
+
+.banner-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.banner-container > div:first-child {
+  padding-right: 130px;
+}
+
+.heading-text span {
+  color: #8896d6;
+}
