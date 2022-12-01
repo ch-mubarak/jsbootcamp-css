@@ -15,12 +15,12 @@
   <p class="text-white text-center bg-neutral-700 py-2">
     Educational purpose!
   </p>
-  <nav class="flex justify-around items-center px-20 sticky inset-0 bg-neutral-800 gap-10 drop-shadow-lg">
+  <nav class="flex justify-between items-center px-10 lg:px-20 sticky inset-0 bg-neutral-800 gap-10 drop-shadow-lg lg:py-0 py-2">
     <div class="flex justify-between gap-3">
       <img src="./img/logo.png" alt="logo" class="w-[30px] h-[30px]" />
       <h1 class="text-white text-2xl">Visual Studio Code</h1>
     </div>
-    <ul class="flex text-slate-300 gap-5 mr-auto">
+    <ul class="lg:flex text-slate-300 gap-5 mr-auto hidden">
       <li class="text-lg">Docs</li>
       <li class="text-lg">Updates</li>
       <li class="text-lg">Blog</li>
@@ -29,11 +29,14 @@
       <li class="text-lg">FAQ</li>
       <li class="text-lg">Learn</li>
     </ul>
-    <div class="flex justify-between items-center gap-3">
+    <div class="lg:flex justify-between items-center gap-3 hidden">
       <i class="fa-solid fa-magnifying-glass text-white"></i>
       <button class="text-white bg-blue-500 px-5 py-4 font-bold hover:bg-blue-900">
         Download
       </button>
+    </div>
+    <div class="flex lg:hidden text-3xl text-white">
+      <i class="fa-solid fa-bars"></i>
     </div>
   </nav>
   <div class="text-center bg-neutral-900 py-3 text-lg">
@@ -69,7 +72,7 @@
       </div>
     </section>
     <section>
-      <div class="bg-white flex justify-around mt-10 lg:flex-row flex-col gap-4 text-center text-4xl text-slate-600 px-20 py-10">
+      <div class="bg-white lg:flex lg:justify-around mt-10 lg:flex-row grid grid-cols-2  grid-rows-2 gap-4 text-center text-4xl text-slate-600 px-20 py-10">
         <div>
           <i class="fa-regular fa-lightbulb"></i>
           <p class="text-2xl mt-2">Intellisense</p>
